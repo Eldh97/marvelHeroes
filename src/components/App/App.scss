@@ -1,0 +1,32 @@
+// RESET 
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+}
+html{
+    // This defines what 1rem is: 1rem = 16px, to make 1rem = 10px --> 10/16 * 100 = 62.5% 
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+
+.App{
+  // background-color: rgb(165, 47, 67); 
+   width: 114rem;
+   margin: 6rem auto;
+   //height: 120vh;
+   font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right top, rgba(93, 14, 105, 0.767), rgba(124, 25, 99, 0.678) , rgba(168, 12, 168, 0.603));
+    background-repeat:no-repeat;
+    background-size: cover;
+}

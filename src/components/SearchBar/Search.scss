@@ -1,0 +1,53 @@
+.Search{
+    height: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__form{
+        position: relative;
+
+
+    }
+    &__field{
+
+        margin-right: 1rem;
+        width: 35rem;
+        border-radius: 10rem;
+        height: 5.1rem;
+        padding: 2rem;
+        border: none;
+        outline: none;
+        border-color: none;
+        text-transform: capitalize;
+        color: black;
+        &:focus, &:active{
+
+        }
+    }
+
+
+    &__btn{
+        border: none;
+        outline: none;
+        border-color: none;
+        display: inline-block;
+        padding: 1rem 1.2rem;
+        text-align: center;
+        border-radius: 10rem;
+        width: 4.7rem;
+        height: 4.7rem;
+        //transform: translateY(5%); 
+        position: absolute;
+        right: 1.2rem;
+        top: .2rem;
+        background-image: linear-gradient(to right , rgb(82, 17, 92), rgb(124, 25, 99) , rgb(168, 12, 168));
+        color: white;        
+    }
+
+    &__icon{
+        display: inline-block;
+        height: 10rem;
+
+    }
+}   

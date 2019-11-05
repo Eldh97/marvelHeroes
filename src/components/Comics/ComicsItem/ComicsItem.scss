@@ -1,0 +1,38 @@
+.ComicsItem{
+    background-color: #eee;
+    margin: 1rem;
+    padding: 1rem;
+    flex-basis: 30%; 
+    box-shadow: .2rem .5rem 4rem rgba(rgb(32, 32, 32), .15);
+    text-align: center;
+    height: 43rem;
+    transition: all .8s ;
+    &:hover{
+        transform: translateY(-.6rem);
+        box-shadow: 2rem 15rem 4rem rgba(rgb(32, 32, 32), .15);
+        background-color: rgb(255, 255, 255);
+
+
+    }
+    &-title{
+        font-size: 1.9rem;
+        padding-top: 3rem;
+        background-image: linear-gradient(to right , rgb(82, 17, 92), rgb(124, 25, 99) , rgb(168, 12, 168));
+        height: 8rem;
+        color: #eee;
+        font-weight: 400;
+        font-family: 'Gugi', cursive;
+
+    }
+    &-photo{
+        display: inline-block;
+        margin: 1.5rem 0;
+        width: 20rem;;
+        height: 20rem;
+    }
+
+    &-description{ 
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
